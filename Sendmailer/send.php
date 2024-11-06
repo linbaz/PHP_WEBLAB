@@ -23,7 +23,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $mail->Host = 'smtp.gmail.com'; // SMTP сервер (замість example.com введіть сервер вашого email-провайдера)
         $mail->SMTPAuth = true;
         $mail->Username = 'linbaz26134598700@gmail.com'; // Ваш email
-        $mail->Password = 'ecob uatn azvl uebx'; // Ваш пароль
+        $mail->Password = '**** **** **** ****'; // Ваш пароль
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
         $mail->Port = 587;
 
